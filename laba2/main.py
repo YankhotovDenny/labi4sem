@@ -4,6 +4,12 @@ import gmsh
 import math
 import os
 
+#-----------------------------------------------
+# https://www.youtube.com/watch?v=oDP_XvAybwE - вращение
+# https://www.youtube.com/watch?v=86V31BTHjdE - функция на сетке
+#-----------------------------------------------
+
+
 def func(nodes, r, t=0): #функция на сетке
     return np.sin(((np.power(nodes[0, :], 2)
                               + np.power(nodes[1, :], 2)
