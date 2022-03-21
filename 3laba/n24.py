@@ -2,6 +2,11 @@ from fenics import *
 import os
 import numpy as np
 
+#-----------------------------------------------------------------------
+# https://youtu.be/1olqpkOB5vE - видео 
+#-----------------------------------------------------------------------
+
+
 T = 200.0            # final time
 num_steps = 50     # number of time steps
 dt = T / num_steps # time step size
